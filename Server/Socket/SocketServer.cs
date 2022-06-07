@@ -30,7 +30,7 @@ namespace Server
                 }
                 catch
                 {
-                    throw new Exception("Входная строка не может преобразоваться в Port");
+                    throw new Exception("Entered string was not converted to Port");
                 }
             }
         }
@@ -144,7 +144,6 @@ namespace Server
                 }
                 catch (Exception e)
                 {
-
                 }
             }
             TcpClients.Remove(client);

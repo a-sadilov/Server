@@ -29,7 +29,7 @@ namespace Server
                 }
                 catch
                 {
-                    throw new Exception("Входная строка не может преобразоваться в Port");
+                    throw new Exception("Entered string was not converted to Port");
                 }
             }
         }
@@ -80,8 +80,6 @@ namespace Server
                 
                 _listener.Start();
                 Console.WriteLine("Server has started at the port {0}", ServerPort);
-
-                //Task.Factory.StartNew(() =>
                 ListenIncommingRequests(_listener);
             }
             catch (Exception e)
