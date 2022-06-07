@@ -1,6 +1,6 @@
 <br />
 <p align="center">
-<img src="ManagmentApp.png" alt="Logo" width="400" height="90">
+
 
   <h3 align="center">Клиент-серверное десктопное приложение</h3>
 
