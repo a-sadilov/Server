@@ -5,7 +5,7 @@ namespace Server
 {
     class WebSocketServer
     {
-        private static IPAddress _serverIp;
+        private static IPAddress _serverIp = (Dns.GetHostEntry(Dns.GetHostName())).AddressList[1];
         private static int _serverPort;
         private static WebSocketSharp.Server.WebSocketServer _wssv; 
         public static IPAddress ServerIp { get { return _serverIp; } }

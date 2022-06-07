@@ -12,7 +12,7 @@ namespace Server
             {
                 Console.WriteLine("Enter server port: (example: 8000)");
                 string port = Console.ReadLine();
-                Console.WriteLine("Enter the server Type: (example: Socket, WebSocket)");
+                Console.WriteLine("Enter the server Type: (example: Socket = 1, WebSocket = 2)");
                 string type = Console.ReadLine();
                 if(type == "Socket")
                 {
