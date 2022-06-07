@@ -61,7 +61,7 @@ ___
 ___
 
 <br />
-<h4 align="center">Сервер "Multiclient-Counter"</h4>
+<h3 align="center">Сервер "Multiclient-Counter"</h3>
 <br />
 ### Описание
 
