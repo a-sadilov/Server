@@ -12,7 +12,7 @@ namespace Server
             {
                 Console.WriteLine("Enter server port: (example: 8000)");
                 string port = Console.ReadLine();
-                Console.WriteLine("Enter the server Type: (example: Socket = 1, WebSocket = 2)");
+                Console.WriteLine("Enter the server Type: (example: Socket/WebSocket)");
                 string type = Console.ReadLine();
                 if(type == "Socket")
                 {
@@ -27,11 +27,11 @@ namespace Server
                     WebSocketServer.Stop();
                 }
                 else
-                    throw new Exception();
+                    throw new Exception("Enter correct server Type: (example: Socket, WebSocket)");
             }
-            catch (Exception)
+            catch (Exception e )
             {
-                Console.WriteLine("Enter correct server Type: (example: Socket, WebSocket)");
+                Console.WriteLine(e.Message);
                 goto initialize;
             }
 
