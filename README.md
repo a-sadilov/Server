@@ -82,7 +82,7 @@ ___
 ### Демонстрация работы
 
 
-![screen-gif](./demo.gif)
+![screen-gif](./demos/LukoilSocketDemo.gif)
 
 
 ### Контакты
